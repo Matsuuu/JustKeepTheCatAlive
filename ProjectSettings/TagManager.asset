@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PathFindingNode
   - SpaceMan
+  - Room
+  - CenterOfShip
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Walls
+  - PathFindingNodes
   - 
   - 
   - 

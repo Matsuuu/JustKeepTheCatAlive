@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7784b610-1681-4cc5-8132-8bbd4267884c" name="Default Changelist" comment="" />
+    <list default="true" id="7784b610-1681-4cc5-8132-8bbd4267884c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Everyzin is fine az long as ze cat lives/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Everyzin is fine az long as ze cat lives/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Everyzin is fine az long as ze cat lives/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Everyzin is fine az long as ze cat lives/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpaceShipScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SpaceShipScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceManPathFinder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceManPathFinder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/SpaceManPathFinder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XqWe9yiGVsnOAnqaPkNzQujiRe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +39,7 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -68,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581774198335</updated>
       <workItem from="1581774204040" duration="3975000" />
+      <workItem from="1582646762463" duration="7326000" />
     </task>
     <servers />
   </component>
@@ -81,5 +93,13 @@
       <screen x="0" y="27" width="1920" height="1007" />
     </state>
     <state x="596" y="209" width="724" height="646" key="RiderGenerateDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1581776959429" />
+    <state x="622" y="239" key="run.anything.popup" timestamp="1582651838549">
+      <screen x="0" y="19" width="1920" height="1061" />
+    </state>
+    <state x="622" y="239" key="run.anything.popup/0.19.1920.1061@0.19.1920.1061" timestamp="1582651838549" />
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1582649818878">
+      <screen x="0" y="19" width="1920" height="1061" />
+    </state>
+    <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.19.1920.1061@0.19.1920.1061" timestamp="1582649818878" />
   </component>
 </project>
