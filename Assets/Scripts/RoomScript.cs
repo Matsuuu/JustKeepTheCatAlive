@@ -2,10 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class RoomScript : MonoBehaviour
 {
     private SpriteRenderer overlaySprite;
+
+    public UnityEvent roomEnterAction;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,10 +44,25 @@ public class RoomScript : MonoBehaviour
         HideOverlay();
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log(other.gameObject);
+        if (other.gameObject.CompareTag("SpaceMan"))
+        {
+            HandleRoomAction();
+        }
+    }
+
     private void HideOverlay()
     {
         Color overlaySpriteColor = overlaySprite.color;
         overlaySpriteColor.a = 0.0f;
         overlaySprite.color = overlaySpriteColor;
+    }
+
+    private void HandleRoomAction()
+    {
+        Debug.Log("Handle room action");
+        roomEnterAction?.Invoke();
     }
 }

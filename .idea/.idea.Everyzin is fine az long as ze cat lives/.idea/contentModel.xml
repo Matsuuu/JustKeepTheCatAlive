@@ -6,11 +6,18 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Fonts" t="Include">
+          <e p="bulkypixels" t="Include">
+            <e p="read me!.txt" t="Include" />
+          </e>
+        </e>
+        <e p="RadioRoom.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PathFindingNode.cs" t="Include" />
           <e p="RoomScript.cs" t="Include" />
         </e>
         <e p="SpaceManPathFinder.cs" t="Include" />
+        <e p="TalkScript.cs" t="Include" />
       </e>
       <e p="Everyzin is fine az long as ze cat lives.sln" t="IncludeFlat" />
       <e p="Temp/bin" t="ExcludeRecursive" />

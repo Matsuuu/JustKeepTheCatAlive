@@ -8,6 +8,7 @@ TagManager:
   - SpaceMan
   - Room
   - CenterOfShip
+  - TalkScriptHolder
   layers:
   - Default
   - TransparentFX

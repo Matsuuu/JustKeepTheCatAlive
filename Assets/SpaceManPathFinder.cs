@@ -24,6 +24,7 @@ public class SpaceManPathFinder : MonoBehaviour
         Right
     };
 
+    public bool canMove = true;
     private Camera mainCamera;
     private Transform centerOfShip;
     public bool inARoom = false;
@@ -58,7 +59,7 @@ public class SpaceManPathFinder : MonoBehaviour
 
     private void ListenForMouseClick()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && canMove)
         {
             Vector3 mousePosition = Input.mousePosition;
             Vector3 mousePositionInWorld = mainCamera.ScreenToWorldPoint(mousePosition);
@@ -186,5 +187,15 @@ public class SpaceManPathFinder : MonoBehaviour
         {
             inARoom = false;
         }
+    }
+
+    public void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    public void EnableMovement()
+    {
+        canMove = true;
     }
 }
